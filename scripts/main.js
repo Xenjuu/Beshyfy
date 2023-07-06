@@ -18,6 +18,7 @@ document.querySelector("#submit").addEventListener("click", () => {
     });
 
     copyButton.style.display = "block";
+    outputContainer.style.display = "block";
   }
 });
 
@@ -37,4 +38,5 @@ document.querySelector("#clear").addEventListener("click", () => {
   textInput.value = "";
   output.textContent = "";
   copyButton.style.display = "none";
+  outputContainer.style.display = "none";
 });
